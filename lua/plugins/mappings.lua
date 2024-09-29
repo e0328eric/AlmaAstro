@@ -20,6 +20,7 @@ return {
       mappings = {
         n = {
           ["<C-\\>"] = "O",
+	  Q = "<nop>",
         },
         i = {
           ["<C-\\>"] = "<C-[>O",
@@ -27,6 +28,7 @@ return {
         v = {
           J = ":m '>+1<CR>gv=gv",
           K = ":m '<-2<CR>gv=gv",
+	  Q = "gq",
         }
       }
     }
